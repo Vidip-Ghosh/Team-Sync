@@ -47,7 +47,7 @@ const Navbar = () => {
     <>
       <div className="flex h-20 top-0 w-full mx-auto justify-between items-center py-4 container ">
         <div>
-          <Infinity size={50} color="#95dbd6" strokeWidth={1.5} />
+          <Infinity size={50} color={"#4987f7"} strokeWidth={1.5} />
         </div>
         <div>
           {navItems.map((navItem) => (
