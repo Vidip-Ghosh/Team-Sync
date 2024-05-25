@@ -1,6 +1,12 @@
 import React from "react";
 import { UserButton, useUser } from "@clerk/nextjs";
-import { IconHome, IconMessage, IconUser } from "@tabler/icons-react";
+import {
+  IconHome,
+  IconMessage,
+  IconUser,
+  IconGlobeFilled,
+  IconGlobe,
+} from "@tabler/icons-react";
 import { Infinity, User } from "lucide-react";
 import { ModeToggle } from "@/components/mode-toggle";
 import Link from "next/link";
@@ -14,14 +20,26 @@ const Navbar = () => {
     },
     {
       name: "About",
-      link: "/about",
+      link: "/AboutUS",
       icon: <IconUser className="h-4 w-4 text-neutral-500 dark:text-white" />,
     },
     {
       name: "Contact",
-      link: "/contact",
+      link: "/ContactUS",
       icon: (
         <IconMessage className="h-4 w-4 text-neutral-500 dark:text-white" />
+      ),
+    },
+    {
+      name: "Explore Hackathons",
+      link: "/HackathonSec",
+      icon: <IconGlobe className="h-4 w-4 text-neutral-500 dark:text-white" />,
+    },
+    {
+      name: "Community",
+      link: "/TechCommunity",
+      icon: (
+        <IconGlobeFilled className="h-4 w-4 text-neutral-500 dark:text-white" />
       ),
     },
   ];

@@ -1,10 +1,15 @@
-import HackathonDetails from "./page";
+import MoreHackathons from "@/components/MoreHackathons";
 import Footer from "@/components/Footer";
+import ChatSection from "@/components/ChatSection";
+import NavBar from "@/components/NavBar";
 
 const layout = ({ children }) => {
   return (
-    <div className="absolute bottom-0 left-0 right-0 text-gray-600 body-font bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-[size:14px_24px]">
+    <div className="text-gray-600 body-font bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-[size:14px_24px]">
+      <NavBar />
       {children}
+      <ChatSection />
+      <MoreHackathons />
       <Footer />
     </div>
   );

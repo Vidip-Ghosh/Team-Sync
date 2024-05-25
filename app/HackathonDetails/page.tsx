@@ -1,5 +1,4 @@
 import React from "react";
-
 const HackathonDetails = () => {
   return (
     <section className="text-gray-600 body-font bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-[size:14px_24px]">
@@ -10,6 +9,12 @@ const HackathonDetails = () => {
             alt="hero"
             src="https://wittyhacks4.devfolio.co/_next/image?url=https%3A%2F%2Fassets.devfolio.co%2Fhackathons%2Fe9e2409ea9734a56bedc7dc688c8ff3c%2Fassets%2Fcover%2F918.jpeg&w=1440&q=100"
           />
+          <span className="bg-purple-100 text-purple-800 text-sm font-medium me-2 p-2 rounded-xl dark:bg-purple-900 dark:text-purple-300">
+            Theme: No Restrictions
+          </span>
+          <span className="bg-indigo-100 text-indigo-800 text-sm font-medium me-2 p-2 rounded-xl dark:bg-indigo-900 dark:text-indigo-300">
+            Mode: Online
+          </span>
         </div>
         <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
