@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
-import { Button } from "@/components/ui/button";
+
+import HomeLink from "@/app/(browse)/_components/home/HomeLink";
 
 const Home = () => {
   return (
@@ -23,9 +24,9 @@ const Home = () => {
             innovators, including ,startups ,working-professionals, freelancers
             and student innovators
           </p>
-          <div>
-            <Button className={"mr-8"}>Explore hackathon</Button>
-            <Button>Explore Communities</Button>
+          <div className={"inline-flex space-x-6"}>
+            <HomeLink href={"HackathonSec"} name={"Explore Hackathons"} />
+            <HomeLink href={"TechCommunity"} name={"Explore Communities"} />
           </div>
         </div>
         <div className={"text-center"}>
