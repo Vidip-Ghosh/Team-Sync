@@ -8,16 +8,16 @@ const Home = () => {
     <section className={"mt-36 container"}>
       <div className={"grid grid-cols-2"}>
         <div>
-          <h1 className={"text-6xl mb-16 font-bold flex-col space-y-4"}>
-            <div>Learn</div>
+          <h1 className={"text-6xl mb-12 font-bold flex-col space-y-4"}>
+            <div>Learn!</div>
             <div
               className={
                 "bg-clip-text text-transparent bg-gradient-to-br dark:from-blue-500 dark:to-violet-300 from-amber-600 to-amber-500"
               }
             >
-              Explore
+              Explore!
             </div>
-            <div>Upskill</div>
+            <div>Upskill!</div>
           </h1>
           <p className={"text-xl mb-12"}>
             Team Sync is the largest and fast-growing community of technology
