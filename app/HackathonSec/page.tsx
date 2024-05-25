@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 const HackathonSec = () => {
   return (
-    <div className="absolute bottom-0 left-0 right-0 top-0 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-[size:14px_24px]">
+    <div className="">
     <section className="text-gray-600 body-font">
   <div className="container px-5 py-24 mx-auto">
     <div className="flex flex-wrap w-full mb-20">
@@ -16,64 +16,65 @@ const HackathonSec = () => {
       <div className="xl:w-1/4 md:w-1/2 p-4">
         <div className="bg-gray-100 p-6 rounded-lg">
           <img className="h-40 rounded w-full object-cover object-center mb-6" src="https://dummyimage.com/720x400" alt="content" />
-          <h3 className="tracking-widest text-blue-500 text-xs font-medium title-font">SUBTITLE</h3>
-          <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Chichen Itza</h2>
+          <h3 className="tracking-widest text-blue-500 text-xs font-medium title-font">Offline</h3>
+          <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Witty Hacks</h2>
           <p className="leading-relaxed text-base">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p>
         </div>
       </div>
       <div className="xl:w-1/4 md:w-1/2 p-4">
         <div className="bg-gray-100 p-6 rounded-lg">
           <img className="h-40 rounded w-full object-cover object-center mb-6" src="https://dummyimage.com/721x401" alt="content" />
-          <h3 className="tracking-widest text-blue-500 text-xs font-medium title-font">SUBTITLE</h3>
-          <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Colosseum Roma</h2>
+          <h3 className="tracking-widest text-blue-500 text-xs font-medium title-font">Online</h3>
+          <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Hack 4 Bengal</h2>
           <p className="leading-relaxed text-base">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p>
         </div>
       </div>
       <div className="xl:w-1/4 md:w-1/2 p-4">
         <div className="bg-gray-100 p-6 rounded-lg">
           <img className="h-40 rounded w-full object-cover object-center mb-6" src="https://dummyimage.com/722x402" alt="content" />
-          <h3 className="tracking-widest text-blue-500 text-xs font-medium title-font">SUBTITLE</h3>
-          <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Great Pyramid of Giza</h2>
+          <h3 className="tracking-widest text-blue-500 text-xs font-medium title-font">Online</h3>
+          <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Hack This Fall</h2>
           <p className="leading-relaxed text-base">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p>
         </div>
       </div>
       <div className="xl:w-1/4 md:w-1/2 p-4">
         <div className="bg-gray-100 p-6 rounded-lg">
           <img className="h-40 rounded w-full object-cover object-center mb-6" src="https://dummyimage.com/723x403" alt="content" />
-          <h3 className="tracking-widest text-blue-500 text-xs font-medium title-font">SUBTITLE</h3>
-          <h2 className="text-lg text-gray-900 font-medium title-font mb-4">San Francisco</h2>
+          <h3 className="tracking-widest text-blue-500 text-xs font-medium title-font">Offline</h3>
+          <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Hack Hive</h2>
           <p className="leading-relaxed text-base">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p>
         </div>
       </div>
       <div className="xl:w-1/4 md:w-1/2 p-4">
         <div className="bg-gray-100 p-6 rounded-lg">
           <img className="h-40 rounded w-full object-cover object-center mb-6" src="https://dummyimage.com/723x403" alt="content" />
-          <h3 className="tracking-widest text-blue-500 text-xs font-medium title-font">SUBTITLE</h3>
-          <h2 className="text-lg text-gray-900 font-medium title-font mb-4">San Francisco</h2>
+          <h3 className="tracking-widest text-blue-500 text-xs font-medium title-font">Online</h3>
+          <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Hack The League</h2>
           <p className="leading-relaxed text-base">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p>
         </div>
       </div>
       <div className="xl:w-1/4 md:w-1/2 p-4">
         <div className="bg-gray-100 p-6 rounded-lg">
           <img className="h-40 rounded w-full object-cover object-center mb-6" src="https://dummyimage.com/723x403" alt="content" />
-          <h3 className="tracking-widest text-blue-500 text-xs font-medium title-font">SUBTITLE</h3>
-          <h2 className="text-lg text-gray-900 font-medium title-font mb-4">San Francisco</h2>
+          <h3 className="tracking-widest text-blue-500 text-xs font-medium title-font">Offline</h3>
+          <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Hack Bytes</h2>
           <p className="leading-relaxed text-base">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p>
         </div>
       </div>
       <div className="xl:w-1/4 md:w-1/2 p-4">
         <div className="bg-gray-100 p-6 rounded-lg">
           <img className="h-40 rounded w-full object-cover object-center mb-6" src="https://dummyimage.com/723x403" alt="content" />
-          <h3 className="tracking-widest text-blue-500 text-xs font-medium title-font">SUBTITLE</h3>
-          <h2 className="text-lg text-gray-900 font-medium title-font mb-4">San Francisco</h2>
+          <h3 className="tracking-widest text-blue-500 text-xs font-medium title-font">Online</h3>
+          <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Eth Mumbai</h2>
           <p className="leading-relaxed text-base">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p>
         </div>
       </div>
       <div className="xl:w-1/4 md:w-1/2 p-4">
         <div className="bg-gray-100 p-6 rounded-lg">
           <img className="h-40 rounded w-full object-cover object-center mb-6" src="https://dummyimage.com/723x403" alt="content" />
-          <h3 className="tracking-widest text-blue-500 text-xs font-medium title-font">SUBTITLE</h3>
-          <h2 className="text-lg text-gray-900 font-medium title-font mb-4">San Francisco</h2>
+          <h3 className="tracking-widest text-blue-500 text-xs font-medium title-font">Online</h3>
+          
+          <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Tech Hacks</h2>
           <p className="leading-relaxed text-base">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p>
         </div>
       </div>
