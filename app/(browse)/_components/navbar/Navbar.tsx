@@ -1,12 +1,11 @@
 import React from "react";
-import { useUser } from "@clerk/nextjs";
+import { UserButton, useUser } from "@clerk/nextjs";
 import { IconHome, IconMessage, IconUser } from "@tabler/icons-react";
-import { Infinity } from "lucide-react";
+import { Infinity, User } from "lucide-react";
+import { ModeToggle } from "@/components/mode-toggle";
+import Link from "next/link";
 
 const Navbar = () => {
-  const user = useUser();
-  console.log(user);
-
   const navItems = [
     {
       name: "Home",
@@ -28,69 +27,25 @@ const Navbar = () => {
   ];
   return (
     <>
-      <nav
-        className={
-          "top-0 w-full h-20 px-2 lg:px-4 flex justify-between items-center"
-        }
-      >
-        Team
-        <span className={"flex items-center"}>
-          <Infinity size={28} color="#95dbd6" strokeWidth={1.5} />
-        </span>
-        Sync
-      </nav>
+      <div className="flex h-20 top-0 w-full mx-auto justify-between items-center px-10 py-4 ">
+        <div>
+          <Infinity size={50} color="#95dbd6" strokeWidth={1.5} />
+        </div>
+        <div>
+          {navItems.map((navItem) => (
+            <div className={"inline-flex items-center px-10"}>
+              <span className={"px-2"}>{navItem.icon}</span>
+              <Link href={navItem.link}>{navItem.name}</Link>
+            </div>
+          ))}
+        </div>
+        <div className={"inline-flex space-x-4 items-center"}>
+          <ModeToggle />
+          <UserButton />
+        </div>
+      </div>
     </>
   );
 };
 
 export default Navbar;
-
-// <div className={"flex items-center justify-end gap-x-2 ml-4 lg:ml-0"}></div>;
-{
-  /*  {!user && (*/
-}
-{
-  /*    <SignInButton>*/
-}
-{
-  /*      <Button>Login</Button>*/
-}
-{
-  /*    </SignInButton>*/
-}
-{
-  /*  )}*/
-}
-{
-  /*  {!!user && (*/
-}
-{
-  /*    <div className={"flex items-center gap-x-4"}>*/
-}
-{
-  /*      <Button*/
-}
-{
-  /*        className={"text-muted-foreground hover:text-primary"}*/
-}
-{
-  /*        size={"sm"}*/
-}
-{
-  /*        variant={"ghost"}*/
-}
-{
-  /*        asChild*/
-}
-{
-  /*      ></Button>*/
-}
-{
-  /*    </div>*/
-}
-{
-  /*  )}*/
-}
-{
-  /*</div>*/
-}
