@@ -1,7 +1,6 @@
 "use client";
 import React from "react";
 import { Button } from "@/components/ui/button";
-import { motion } from "framer-motion";
 
 const Home = () => {
   return (
