@@ -17,6 +17,7 @@ NextJS, TailwindCSS, Supabase, Clerk, Shadcn, Aceternity, Live Kit.
 
 - Connect to your team mate virtually before the hackathon through video chat
 - Explore Hackathons at one place
+- No need to go through different links like discord etc, you can communicate with the organizer and mentor at one place.
 - Explore Tech Communities which are near you
 - Recommendation system tells you what hackathon is perfect for you by filtering your tech stack and choices
 - Discussion Forum for connecting with like minded peer
