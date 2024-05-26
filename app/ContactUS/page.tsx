@@ -1,8 +1,11 @@
 const ContactUS = () => {
   return (
     <section className="text-gray-600 body-font relative">
+      
       <div className="container px-5 py-24 mx-auto flex sm:flex-nowrap flex-wrap">
+      
         <div className="lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
+        
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117763.6929599443!2d75.78127725376726!3d22.723951549615578!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3962fcad1b410ddb%3A0x96ec4da356240f4!2sIndore%2C%20Madhya%20Pradesh!5e0!3m2!1sen!2sin!4v1716674418087!5m2!1sen!2sin"
             width="100%"

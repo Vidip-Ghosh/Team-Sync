@@ -10,12 +10,16 @@ const HackathonDetails = () => {
             alt="hero"
             src="https://wittyhacks4.devfolio.co/_next/image?url=https%3A%2F%2Fassets.devfolio.co%2Fhackathons%2Fe9e2409ea9734a56bedc7dc688c8ff3c%2Fassets%2Fcover%2F918.jpeg&w=1440&q=100"
           />
-          <span className="bg-purple-100 text-purple-800 text-sm font-medium me-2 p-2 rounded-xl dark:bg-purple-900 dark:text-purple-300">
-            Theme: No Restrictions
+          <div className="m-6 ">
+          <span className="flex flex-row bg-purple-100 text-purple-800 text-sm font-medium m-2 p-2 rounded-xl dark:bg-purple-900 dark:text-purple-300">
+            No Restrictions
           </span>
-          <span className="bg-indigo-100 text-indigo-800 text-sm font-medium me-2 p-2 rounded-xl dark:bg-indigo-900 dark:text-indigo-300">
-            Mode: Online
+          </div>
+          <div className="m-6 ">
+          <span className="flex flex-row bg-indigo-100 text-indigo-800 text-sm font-medium m-2 p-2 rounded-xl dark:bg-indigo-900 dark:text-indigo-300">
+            Online
           </span>
+          </div>
         </div>
         <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
