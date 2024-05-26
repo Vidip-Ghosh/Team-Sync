@@ -1,32 +1,36 @@
 const hackathons=[
     {
+        "id": 1,
         "href": "https://onchain-summer.devfolio.co/",
         "name": "Onchain Summer Buildathon",
         "event_type": "Hackathon",
         "theme": [
             "Blockchain"
         ],
-        "mode":"Online"
+        "mode": "Online"
     },
     {
+        "id": 2,
         "href": "https://kleos-s2.devfolio.co/",
         "name": "KLEOS 2.0",
         "event_type": "Hackathon",
         "theme": [
             "No Restrictions"
         ],
-        "mode":"Offline"
+        "mode": "Offline"
     },
     {
+        "id": 3,
         "href": "https://ethprague2024.devfolio.co/",
         "name": "ETHPrague 2024",
         "event_type": "Hackathon",
         "theme": [
             "Blockchain"
         ],
-        "mode":"Offline"
+        "mode": "Offline"
     },
     {
+        "id": 4,
         "href": "https://story-buildathon.devfolio.co/",
         "name": "Story Protocol v1.0 Buildathon",
         "event_type": "Hackathon",
@@ -35,90 +39,100 @@ const hackathons=[
             "FinTech",
             "Blockchain"
         ],
-        "mode":"Online"
+        "mode": "Online"
     },
     {
+        "id": 5,
         "href": "https://hackfest-24.devfolio.co/",
         "name": "HackFest'24",
         "event_type": "Hackathon",
         "theme": [
             "No Restrictions"
         ],
-        "mode":"Offline"
+        "mode": "Offline"
     },
     {
+        "id": 6,
         "href": "https://ssocseason3.devfolio.co/",
         "name": "Social Summer Of Code Season 3",
         "event_type": "Hackathon",
         "theme": [
             "No Restrictions"
         ],
-        "mode":"Online"
+        "mode": "Online"
     },
     {
+        "id": 7,
         "href": "https://hackprix.devfolio.co/",
         "name": "HackPrix",
         "event_type": "Hackathon",
         "theme": [
             "No Restrictions"
         ],
-        "mode":"Offline"
+        "mode": "Offline"
     },
     {
+        "id": 8,
         "href": "https://codeclash24.devfolio.co/",
         "name": "CodeClash'24",
         "event_type": "Hackathon",
         "theme": [
             "No Restrictions"
         ],
-        "mode":"Offline"
+        "mode": "Offline"
     },
     {
+        "id": 9,
         "href": "https://onchain-summer.devfolio.co/",
         "name": "Onchain Summer Buildathon",
         "event_type": "Hackathon",
         "theme": [
             "Blockchain"
         ],
-        "mode":"Online"
+        "mode": "Online"
     },
     {
+        "id": 10,
         "href": "https://quantamaze-2.devfolio.co/",
         "name": "Quant-A-Maze 2.0",
         "event_type": "Hackathon",
         "theme": [
             "No Restrictions"
         ],
-        "mode":"Offline"
+        "mode": "Offline"
     },
     {
+        "id": 11,
         "href": "https://sui-overflow.devfolio.co/",
         "name": "Sui Overflow",
         "event_type": "Hackathon",
         "theme": [
             "No Restrictions"
         ],
-        "mode":"Online"
+        "mode": "Online"
     },
     {
+        "id": 12,
         "href": "https://vinyasa-summer-of-code-vsoc.devfolio.co/",
         "name": "Vinyasa Summer of Code (VSOC)",
         "event_type": "Hackathon",
         "theme": [
             "No Restrictions"
         ],
-        "mode":"Online"
+        "mode": "Online"
     },
     {
+        "id": 13,
         "href": "https://jithack-24.devfolio.co/",
         "name": "JITHACK'24",
         "event_type": "Hackathon",
         "theme": [
             "No Restrictions"
         ],
-        "mode":"Offline"
+        "mode": "Offline"
     },
     {
+        "id": 14,
         "href": "https://data-protection-startup-track-by-iexec.devfolio.co/",
         "name": "Data Protection Startup Track by iExec",
         "event_type": "Hackathon",
@@ -126,18 +140,20 @@ const hackathons=[
             "FinTech",
             "Blockchain"
         ],
-        "mode":"Online"
+        "mode": "Online"
     },
     {
+        "id": 15,
         "href": "https://hack-with-mlsa-ignou.devfolio.co/",
         "name": "Hack with MLSA-IGNOU",
         "event_type": "Hackathon",
         "theme": [
             "AI/ML"
         ],
-        "mode":"Online"
+        "mode": "Online"
     },
     {
+        "id": 16,
         "href": "https://diamante-net-hackathon.devfolio.co/",
         "name": "Diamante Net Hackathon 2024",
         "event_type": "Hackathon",
@@ -146,9 +162,10 @@ const hackathons=[
             "Design",
             "Blockchain"
         ],
-        "mode":"Online"
+        "mode": "Online"
     },
     {
+        "id": 17,
         "href": "https://rns-hackoverflow-2.devfolio.co/",
         "name": "RNS Hack_Overflow 2.0",
         "event_type": "Hackathon",
@@ -157,9 +174,10 @@ const hackathons=[
             "Design",
             "Blockchain"
         ],
-        "mode":"Offline"
+        "mode": "Offline"
     },
     {
+        "id": 18,
         "href": "https://eth-salvador.devfolio.co/",
         "name": "ETH Salvador 2024",
         "event_type": "Hackathon",
@@ -168,27 +186,30 @@ const hackathons=[
             "Design",
             "Blockchain"
         ],
-        "mode":"Online"
+        "mode": "Online"
     },
     {
+        "id": 19,
         "href": "https://hackdegalaxy.devfolio.co/",
         "name": "HackDeGalaxy",
         "event_type": "Hackathon",
         "theme": [
             "Blockchain"
         ],
-        "mode":"Online"
+        "mode": "Online"
     },
     {
+        "id": 20,
         "href": "https://innofusionhackathon.devfolio.co/",
         "name": "InnoFusion-1.0",
         "event_type": "Hackathon",
         "theme": [
             "No Restrictions"
         ],
-        "mode":"Offline"
+        "mode": "Offline"
     },
     {
+        "id": 21,
         "href": "https://hacker-house-goa.devfolio.co/",
         "name": "HACKER HOUSE GOA",
         "event_type": "Hackathon",
@@ -196,7 +217,8 @@ const hackathons=[
             "AI/ML",
             "Blockchain"
         ],
-        "mode":"Offline"
+        "mode": "Offline"
     }
 ]
-export default hackathons
+
+export default hackathons;
