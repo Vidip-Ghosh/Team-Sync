@@ -24,7 +24,29 @@ NextJS, TailwindCSS, Supabase, Clerk, Shadcn, Aceternity, Live Kit.
 - Made on NextJS (pretty fast)
 - Light/dark mode toggle, Fully Responsive
 
+##  Web App Screenshots
 
+### Home Page :
+![Untitled](https://github.com/Vidip-Ghosh/Team-Sync/assets/74638335/50aec661-237c-4102-b953-f02b4629c943)
+
+
+### About Us
+![Untitled](https://github.com/Vidip-Ghosh/Team-Sync/assets/74638335/b7e449fb-1df4-48ae-a115-ab5d97c07af9)
+![Untitled](https://github.com/Vidip-Ghosh/Team-Sync/assets/74638335/f7144ee3-a13c-4bff-950b-01a3f57b76a6)
+
+### Contact Us
+![Untitled](https://github.com/Vidip-Ghosh/Team-Sync/assets/74638335/a7a8e69c-f188-4e90-993e-ecb813b25441)
+
+### Explore Hackathons
+![Untitled](https://github.com/Vidip-Ghosh/Team-Sync/assets/74638335/fbe4ff1e-2010-41d6-8c08-0fa3a8d3ac77)
+![Untitled](https://github.com/Vidip-Ghosh/Team-Sync/assets/74638335/faac0784-530e-45b7-ba85-2f45fb9cc1fb)
+
+
+### Hackathon Page (Connecting with mentor / organizer / desired team mate)
+
+
+### Tech Communities 
+![Uploading Untitled.jpeg…]()
 
 ## Run Locally 📍
 
