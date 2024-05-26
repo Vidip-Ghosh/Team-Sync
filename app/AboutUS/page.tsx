@@ -7,6 +7,7 @@ const AboutUS = () => {
 
   <div className="container px-5 py-24 mx-auto">
     <div className="text-center mb-20">
+      
       <h1 className="sm:text-3xl text-2xl font-medium text-center title-font text-white mb-4">We are Team Sync!</h1>
       <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">Team Sync is the largest and fast-growing community of technology innovators, including ,startups ,working-professionals, freelancers and student innovators</p>
     </div>
