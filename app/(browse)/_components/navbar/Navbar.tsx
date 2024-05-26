@@ -7,7 +7,7 @@ import {
   IconGlobeFilled,
   IconGlobe,
 } from "@tabler/icons-react";
-import { Infinity, User } from "lucide-react";
+import { Infinity } from "lucide-react";
 import { ModeToggle } from "@/components/mode-toggle";
 import Link from "next/link";
 

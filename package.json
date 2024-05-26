@@ -10,10 +10,14 @@
   },
   "dependencies": {
     "@clerk/nextjs": "4.31.0",
+    "@livekit/components-react": "^2.3.1",
+    "@livekit/components-styles": "^1.0.12",
     "@radix-ui/react-dropdown-menu": "^2.0.6",
     "@radix-ui/react-slot": "^1.0.2",
+    "@supabase/supabase-js": "^2.43.4",
     "@tabler/icons-react": "^3.5.0",
     "class-variance-authority": "^0.7.0",
+    "livekit-server-sdk": "^2.3.0",
     "lucide-react": "^0.379.0",
     "mini-svg-data-uri": "^1.4.4",
     "next": "14.2.3",
@@ -21,6 +25,7 @@
     "prettier": "^3.2.5",
     "react": "^18",
     "react-dom": "^18",
+    "svix": "^1.24.0",
     "tailwind-merge": "^2.3.0",
     "tailwindcss-animate": "^1.0.7"
   },
