@@ -213,8 +213,8 @@ const HackathonSec = () => {
             ))}
           </div>
         </div>
-      </section>
-    </div>
+      </div>
+    </section>
   );
 };
 

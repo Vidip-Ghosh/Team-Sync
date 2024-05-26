@@ -18,8 +18,9 @@ const TechCommunity = () => {
               <div className="h-1 w-20 bg-blue-500 rounded"></div>
             </div>
             <p className="lg:w-1/2 w-full leading-relaxed text-gray-500">
-              Explore Tech Communities across India at one platform, where you can 
-              communicate with others, get mentorship, and learn more about technology.
+              Explore Tech Communities across India at one platform, where you
+              can communicate with others, get mentorship, and learn more about
+              technology.
             </p>
           </div>
           <div className="flex flex-wrap -m-4">
@@ -29,9 +30,9 @@ const TechCommunity = () => {
                   <svg
                     fill="none"
                     stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
                     className="w-6 h-6"
                     viewBox="0 0 24 24"
                   >
@@ -53,9 +54,9 @@ const TechCommunity = () => {
                   <svg
                     fill="none"
                     stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
                     className="w-6 h-6"
                     viewBox="0 0 24 24"
                   >
@@ -79,9 +80,9 @@ const TechCommunity = () => {
                   <svg
                     fill="none"
                     stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
                     className="w-6 h-6"
                     viewBox="0 0 24 24"
                   >
@@ -104,9 +105,9 @@ const TechCommunity = () => {
                   <svg
                     fill="none"
                     stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
                     className="w-6 h-6"
                     viewBox="0 0 24 24"
                   >
@@ -128,9 +129,9 @@ const TechCommunity = () => {
                   <svg
                     fill="none"
                     stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
                     className="w-6 h-6"
                     viewBox="0 0 24 24"
                   >
@@ -152,9 +153,9 @@ const TechCommunity = () => {
                   <svg
                     fill="none"
                     stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
                     className="w-6 h-6"
                     viewBox="0 0 24 24"
                   >

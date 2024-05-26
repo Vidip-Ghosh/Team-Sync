@@ -3,7 +3,6 @@
 import "@livekit/components-styles";
 import {
   LiveKitRoom,
-  VideoConference,
   GridLayout,
   ParticipantTile,
   RoomAudioRenderer,
@@ -17,26 +16,35 @@ export default function Page() {
   const [room, setRoom] = useState("");
   const [name, setName] = useState("");
   const [token, setToken] = useState("");
+  const [prompted, setPrompted] = useState(false);
 
   useEffect(() => {
-    const room = prompt("please enter room name");
-    const userName = prompt("Please enter your name:");
-    setName(userName);
+    if (!prompted) {
+      const room = prompt("please enter room name");
+      const userName = prompt("Please enter your name:");
+      if (room) setRoom(room);
+      if (userName) setName(userName);
+      setPrompted(true); // Ensure prompts are shown only once
+    }
+  }, [prompted]);
 
-    (async () => {
-      try {
-        const resp = await fetch(
-          `/api/get-participant-token?room=${room}&username=${userName}`,
-        );
-        const data = await resp.json();
-        setToken(data.token);
-      } catch (e) {
-        console.error(e);
-      }
-    })();
-  }, []);
+  useEffect(() => {
+    if (room && name) {
+      (async () => {
+        try {
+          const resp = await fetch(
+            `/api/get-participant-token?room=${room}&username=${name}`,
+          );
+          const data = await resp.json();
+          setToken(data.token);
+        } catch (e) {
+          console.error(e);
+        }
+      })();
+    }
+  }, [room, name]); // Only fetch the token when room and name are set
 
-  if (token === "") {
+  if (!prompted || token === "") {
     return <div>Getting token...</div>;
   }
 
@@ -49,9 +57,11 @@ export default function Page() {
       data-lk-theme="default"
       style={{ height: "100dvh" }}
     >
-      <MyVideoConference />
-      <RoomAudioRenderer />
-      <ControlBar />
+      <div className={"aspect-video"}>
+        <MyVideoConference />
+        <RoomAudioRenderer />
+        <ControlBar />
+      </div>
     </LiveKitRoom>
   );
 }
@@ -69,7 +79,9 @@ function MyVideoConference() {
       tracks={tracks}
       style={{ height: "calc(100vh - var(--lk-control-bar-height))" }}
     >
-      <ParticipantTile />
+      <div>
+        <ParticipantTile />
+      </div>
     </GridLayout>
   );
 }
