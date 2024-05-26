@@ -51,9 +51,15 @@ const Navbar = () => {
         </div>
         <div>
           {navItems.map((navItem) => (
-            <div className={"inline-flex items-center px-10"}>
-              <span className={"px-2"}>{navItem.icon}</span>
-              <Link href={navItem.link}>{navItem.name}</Link>
+            <div
+              className={
+                "inline-flex text-center mx-2 hover:border-b-2 hover:border-blue-500 duration-300"
+              }
+            >
+              <div key={navItem.name} className={"inline-flex items-center "}>
+                <span className={"px-2"}>{navItem.icon}</span>
+                <Link href={navItem.link}>{navItem.name}</Link>
+              </div>
             </div>
           ))}
         </div>
